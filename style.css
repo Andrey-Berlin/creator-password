@@ -1,0 +1,168 @@
+body{
+
+        text-align: center;
+
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+        background: #044d6a51;
+
+       /* font-size: 18px;*/
+      }
+
+      ul {
+
+      text-align: left;
+
+      font-size: 20px;
+
+      padding: 0% 0% 0% 30%;
+      
+      color: #380a0a;
+
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+      }
+
+      li{
+
+       margin: 2%;
+
+       color: #000;
+
+      }
+      
+      
+      
+      #out_code{
+        white:50%;
+        border: thick double #041b24c4;
+        padding: 2% 0% 0% 10%;
+        /*text-align: center;*/
+        font-size: xx-large;
+        color: rgb(255, 0, 0);
+        font-family:sans-serif
+      }
+
+     /* #out_decode{
+        
+        border: thick double #041b24c4;
+
+        font-size: xx-large;
+        color: rgb(255, 0, 0);
+        font-family:sans-serif
+      }*/
+      
+  input{
+
+  width: 50%;
+  padding: 12px 20px;
+  /*margin: 8px 0;*/
+  box-sizing: border-box;
+  background-color: #0b0b0b;
+  color: white;
+  font-size: 18px;
+
+}
+
+button{
+  
+  width: 30%;
+  height: 50px;
+  font-size: 18px;
+  
+}
+
+textarea {
+  
+  width: 70%;
+  
+  
+}
+
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+
+
+header {
+
+  background-image: linear-gradient(white,#b1dce3,#86c7d1);
+
+color: #5d5b5b;
+
+font-family: Georgia, serif;
+
+text-align: center;
+
+
+}
+
+section {
+
+
+
+background: #ebe5e3db;
+text-align: center;
+
+
+}
+
+footer {
+
+  background-image: linear-gradient(white,#b1dce3,#86c7d1);
+    color: black;
+
+   /* background:#b4dad9;*/
+    text-align: center;
+    /*background-image: linear-gradient(#045d6d, #00ffea, rgb(5, 68, 104));*/
+    font-size: 18px;
+    
+  }
+  
+  #timer{
+    
+    color: grey;
+    
+  }
+  
+  #date{
+    
+   color: grey ;
+    
+  }
+  
+  iframe {
+
+
+
+
+   /* margin: 0 10% 0 10%;*/
+
+    width: 100%;
+    height: 500px;
+
+
+}
